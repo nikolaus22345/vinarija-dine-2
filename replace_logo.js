@@ -5,9 +5,9 @@ let htmlContent = fs.readFileSync(htmlFile, 'utf8');
 
 const replacements = [
     // Desktop logo
-    [`src="fonts/65fbb0b36b1a31822dc0f04e_nav-white-logo.svg"`, `src="fonts/solcic-logo-white.png" style="height: 48px; width: auto;"`],
+    [`src="fonts/65fbb0b36b1a31822dc0f04e_nav-white-logo.svg"`, `src="fonts/dine-logo-white.svg" style="height: 48px; width: auto;"`],
     // Footer logo
-    [`src="fonts/65fa75efb0e23020f34cc46b_footer-logo.svg"`, `src="fonts/solcic-logo-white.png" style="height: 56px; width: auto;"`]
+    [`src="fonts/65fa75efb0e23020f34cc46b_footer-logo.svg"`, `src="fonts/dine-logo-white.svg" style="height: 56px; width: auto;"`]
 ];
 
 for (const [key, value] of replacements) {
